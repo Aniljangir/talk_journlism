@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+def VUFORIA_SDK_DIR = 'C:/Users/anil/Desktop/vuforia-sdk-android-5-5-9'
+def NATIVE_LIB_DIR = 'build/lib'
+def JAR_DIR = 'build/java/vuforia'
+android {
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "2048M"
+    }
+
+    repositories {
+        mavenCentral()
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+    sourceSets.main {
+        jni.srcDirs = []
+        jniLibs.srcDir "$VUFORIA_SDK_DIR/$NATIVE_LIB_DIR/"
+    }
+    defaultConfig {
+        applicationId "com.talk.jounlist.talk_jurnlist"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 2
+        versionName "1.0.1"
+        multiDexEnabled true
+    }
+    archivesBaseName = rootProject.projectDir.getName()
+    buildTypes {
+        release {
+            minifyEnabled false
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+            ndk {
+                abiFilters "armeabi-v7a"
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+/*configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+}*/
+
+
+dependencies {
+    /*compile fileTree(include: ['*.jar'], dir: 'libs')*/
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.1.0'
+    compile 'com.android.support:support-v4:24.1.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile files('libs/org.apache.http.legacy.jar')
+    compile files('libs/commons-io-2.4.jar')
+    compile files('libs/volley.jar')
+    compile files('libs/apache-mime4j-0.6.jar')
+    compile files('libs/httpmime-4.0.1.jar')
+    compile files("$VUFORIA_SDK_DIR/$JAR_DIR/Vuforia.jar")
+    /*compile project(':FacebookSDK1')*/
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile project(':crop-image-lib')
+    /* compile project(':google-play-services_lib')*/
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    /* compile 'com.google.android.gms:play-services-auth:9.2.1'*/
+    compile 'com.google.android.gms:play-services:9.2.1'
+}

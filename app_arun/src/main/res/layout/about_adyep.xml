@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/profile_bg_icon2x"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/include1"
+        layout="@layout/headerback"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/headengtext_bg2x"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="About YeppAR"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="With our superior social augmented-reality application, users will able to make markers for keeping their memories, sharing their memories to world .And brands for connecting their targeted consumers. This application will be open self-service platform for users and brands owners around the world. This will be the new revolutionary medium for converting personal memories into real world through marker image recognition. App recognizes memories, products, images and this recognition then triggers a response on a mobile device."/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:visibility="gone"
+        android:text="We tracked the India’s online media story; the perception of online media was discussed. Speakers shared their views on the future of online/social media journalism in a booming market."/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/headengtext_bg2x"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="How We do?"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:src="@mipmap/adyep_product_img2x"/>
+</LinearLayout>

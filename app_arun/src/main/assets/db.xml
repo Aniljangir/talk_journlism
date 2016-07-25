@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="twit1" size="1024.000000 190.000000" />
+    <ImageTarget name="talk1" size="1024.000000 1024.000000" />
+    <ImageTarget name="Googlelogo1" size="2000.000000 676.000000" />
+    <ImageTarget name="fb1" size="500.000000 188.000000" />
+    <ImageTarget name="Fairmont1" size="2000.000000 705.000000" />
+    <ImageTarget name="Dainik-Bhaskar-Logo11" size="1600.000000 731.000000" />
+    <ImageTarget name="Dainik-Bhaskar-Logo1" size="555.000000 176.000000" />
+    <ImageTarget name="twitter-logo" size="1000.000000 812.000000" />
+    <ImageTarget name="twit" size="149.000000 150.000000" />
+    <ImageTarget name="talk" size="141.000000 92.000000" />
+    <ImageTarget name="Googlelogo" size="500.000000 169.000000" />
+    <ImageTarget name="fb" size="151.000000 152.000000" />
+    <ImageTarget name="Fairmont-Grey" size="496.000000 214.000000" />
+    <ImageTarget name="Dainik-Bhaskar-Logo" size="480.000000 219.000000" />
+  </Tracking>
+</QCARConfig>

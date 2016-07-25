@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "948353526080",
+    "project_id": "talk-journalism"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948353526080:android:46b33a2e1aea8911",
+        "android_client_info": {
+          "package_name": "com.talk.jounlist.talk_jurnlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948353526080-h0kftcs3fbbvue4d5cjl34nrdtblbvv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talk.jounlist.talk_jurnlist",
+            "certificate_hash": "F672A1583402B8FB9889825862F9FA5BED232EDC"
+          }
+        },
+        {
+          "client_id": "948353526080-i5mspjai50efge9olva5uomjh6b9t5d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talk.jounlist.talk_jurnlist",
+            "certificate_hash": "F3FDEA66D62E76D4990B79308BCE7E680CAD2AB1"
+          }
+        },
+        {
+          "client_id": "948353526080-7agbr3m9hm2tpn9nrqba0dt23rbou7nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talk.jounlist.talk_jurnlist",
+            "certificate_hash": "5F356759AA9D3CB6C378D0F0885018C6C75BA1D0"
+          }
+        },
+        {
+          "client_id": "948353526080-tu6qu2scd0ums2h8ralsk6m2gid0sppe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_Gg_MunWr13rN0Dwc5RftsOHf_6N9fQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

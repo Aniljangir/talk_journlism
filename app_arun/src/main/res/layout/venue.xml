@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/profile_bg_icon2x"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/include1"
+        layout="@layout/headerback"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+      />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/program_text_bg2x">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venue"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="21dp"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/program_one_witout_text2x">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="#30ffffff"
+                   >
+                    <TextView
+                        android:id="@+id/venue1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue 1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:textSize="21dp"
+
+                        android:textColor="#24425e"
+                        />
+                    <TextView
+                        android:layout_below="@id/venue1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The journey of Talk Journalism started in 2012 with a simple tweet call to journalists "
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/textView" />
+                    <Button
+                        android:id="@+id/bt_venue1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:background="#24425e"
+                        android:text="Select"
+                        android:padding="5dp"
+                        android:layout_below="@+id/textView"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/program_two_without_text2x">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="#30ffffff"
+                    >
+                    <TextView
+                        android:id="@+id/venue2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue 2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:textSize="21dp"
+
+                        android:textColor="#24425e"
+                        />
+                    <TextView
+                        android:layout_below="@id/venue2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The journey of Talk Journalism started in 2012 with a simple tweet call to journalists "
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/textView2" />
+                    <Button
+                        android:id="@+id/bt_venue2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:background="#24425e"
+                        android:text="Select"
+                        android:padding="5dp"
+                        android:layout_below="@+id/textView2"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/program_three_without_text2x">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="#30ffffff"
+                    >
+                    <TextView
+                        android:id="@+id/venue3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue 3"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:textSize="21dp"
+
+                        android:textColor="#24425e"
+                        />
+                    <TextView
+                        android:layout_below="@id/venue3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="The journey of Talk Journalism started in 2012 with a simple tweet call to journalists "
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/textView3" />
+                    <Button
+                        android:id="@+id/bt_venue3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:background="#24425e"
+                        android:text="Select"
+                        android:padding="5dp"
+                        android:layout_below="@+id/textView3"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

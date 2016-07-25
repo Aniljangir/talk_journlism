@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/headerback"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:text="About Fairmont Jaipur"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/faimount_otel" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Fairmont Jaipur is an ode to the pink city through awe inspiring architecture and decor, inspired by the Mughal dynasty and Royal Rajputs of yore. This luxury Jaipur hotel is nestled amongst the majestic Aravalli hills, all 199 rooms and suites are elegantly appointed, to reflect a perfect blend of traditional Rajasthani décor and modern amenities.
+
+
+FAIRMONT JAIPUR- 2, Riico Kukas, Jaipur, India. 303101"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#24405c"
+                android:text="MAP and DIRECTIONS"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="From Jaipur International Airport-
+
+    From the airport head towards the main Tonk Road, north to Rambagh Circle – Continue straight to Naran Singh Circle and turn right to reach Teen Murthi Circle, drive through Raja Park  to Transport Nagar - Take NH8 (Delhi, Jaipur highway) to reach Fairmont Jaipur , which is a 15 kilometre drive along the highway. Fairmont Jaipur is located not far from the Amber Fort, one of the area’s major landmarks."
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+

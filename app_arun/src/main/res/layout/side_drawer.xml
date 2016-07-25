@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/side_menu_lay1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff9f9f9"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/side_menu_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <RelativeLayout
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#414143"
+            android:gravity="center"
+            android:padding="10.0dip">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical"
+
+                android:src="@mipmap/menu_profile2x"/>
+
+            <TextView
+                android:id="@+id/fed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="PROFILE"
+                android:textColor="@color/white"
+                android:textSize="15.0sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_home"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#5c5c5c"
+            android:gravity="center"
+            android:padding="10.0dip">
+
+            <ImageView
+                android:id="@+id/imdonate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:focusable="false"
+
+                android:src="@mipmap/menu_home2x"/>
+
+            <TextView
+                android:id="@+id/tv_donate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/imdonate"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:text="HOME"
+                android:textColor="@color/white"
+
+                android:textSize="15.0sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_about"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#7f7f7f"
+            android:gravity="center"
+            android:padding="10.0dip">
+
+            <ImageView
+                android:id="@+id/imrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+
+                android:focusable="false"
+                android:src="@mipmap/menu_adyed2x"/>
+
+            <TextView
+                android:id="@+id/tv_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imrate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:focusable="false"
+                android:text="ABOUT YEPPAR"
+                android:textColor="@color/white"
+
+                android:textSize="15.0sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_jaipur"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#acacac"
+            android:gravity="center"
+            android:padding="10.0dip">
+
+            <ImageView
+                android:id="@+id/im_how"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+
+                android:src="@mipmap/menu_about_jaipur2x"/>
+
+            <TextView
+                android:id="@+id/tv_how"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/im_how"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:text="ABOUT JAIPUR"
+                android:textColor="@color/white"
+
+                android:textSize="15.0sp"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_venus"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="10.0dip">
+
+            <ImageView
+                android:id="@+id/im_how1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:src="@mipmap/menu_about_venues2x"/>
+
+            <TextView
+                android:id="@+id/tv_how1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/im_how1"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:text="ABOUT VENUES"
+                android:textColor="@color/white"
+
+                android:textSize="15.0sp"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"/>
+        <RelativeLayout
+            android:id="@+id/rl_Ar"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#919191"
+            android:gravity="center"
+            android:padding="10.0dip">
+
+            <ImageView
+                android:id="@+id/im_how11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:src="@mipmap/ar_icon"/>
+
+            <TextView
+                android:id="@+id/tv_ar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/im_how11"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:text="AUGMENTED REALITY"
+
+                android:textColor="@color/white"
+
+                android:textSize="15.0sp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
